@@ -10,12 +10,12 @@ const schema=mongoose.Schema(
             "address":String,
             "adar":Number,
             "phone":Number,
-            "username":String,
+            "username":Number,
             "pass":Number,
-            "confpass":Number,
-            "height":Number
+            "confpass":Number
+            
         }
     
 )
-let studmodel=mongoose.model("students",schema)
+let studmodel=mongoose.model("students",schema);
 module.exports={studmodel}
